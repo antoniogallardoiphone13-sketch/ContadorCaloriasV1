@@ -36,10 +36,11 @@ transformers==4.33.1
 tzdata==2025.1
 wheel==0.45.1
 flask==2.3.3
-tensorflow==1.8.0
+tensorflow==2.0.0
 torch==2.2.2
 torchvision==0.17.2
 torchaudio==2.2.2
+
 
 
 
