@@ -34,7 +34,7 @@ class ClasePrincipal:
       
         client = OpenAI(
             base_url="https://router.huggingface.co/v1",
-            api_key="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"
+            api_key="HF_TOKEN"
         )
 
         completion = client.chat.completions.create(
