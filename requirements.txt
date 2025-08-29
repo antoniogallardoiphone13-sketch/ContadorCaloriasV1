@@ -18,7 +18,7 @@ image==1.5.33
 Jinja2==3.1.4
 Markdown==3.7
 mpmath==1.3.0
-openai==1.102.0
+openai==1.101.0          # downgrade para compatibilidad
 packaging==25.0
 protobuf==5.29.3
 psutil==7.0.0
@@ -30,16 +30,17 @@ six==1.17.0
 sniffio==1.3.1
 sqlparse==0.5.3
 sympy==1.13.1
-tensorboard==2.14.0
+tensorboard==2.12.0       # downgrade para compatibilidad con typing-extensions
 tqdm==4.67.1
 transformers==4.33.1
 tzdata==2025.1
 wheel==0.45.1
 flask==2.3.3
-tensorflow==2.13.1
+tensorflow==2.12.0        # downgrade para compatibilidad
 torch==2.2.2
 torchvision==0.17.2
 torchaudio==2.2.2
+typing-extensions>=4.11,<5  # para que openai y tensorflow no choquen
 
 
 
