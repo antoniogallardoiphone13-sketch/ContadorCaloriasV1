@@ -33,9 +33,14 @@ sympy==1.13.1
 tensorboard==2.14.0
 tqdm==4.67.1
 transformers==4.33.1
+torch
+torchvision
+torchaudio
 tzdata==2025.1
 wheel==0.45.1
 flask==2.3.3
+tensorflow
+
 
 
 
